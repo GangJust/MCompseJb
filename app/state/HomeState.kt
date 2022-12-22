@@ -2,8 +2,7 @@ package app.state
 
 import androidx.compose.runtime.mutableStateOf
 import app.model.HomeModel
-import app.view.HomeUI
-import base.AbstractState
+import base.mvvm.AbstractState
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

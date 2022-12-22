@@ -1,6 +1,6 @@
 package app.model
 
-import base.AbstractModel
+import base.mvvm.AbstractModel
 import kotlinx.coroutines.delay
 
 class HomeModel : AbstractModel() {
@@ -9,5 +9,9 @@ class HomeModel : AbstractModel() {
         //pretend to log in.
         delay(2000L)
         return "{\"code\":0, \"msg\":\"success.\",\"name\":\"$userName\",millis:${System.currentTimeMillis()}}"
+    }
+
+    override fun dispose() {
+
     }
 }

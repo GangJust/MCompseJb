@@ -13,7 +13,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import app.state.HomeState
-import base.AbstractView
+import base.mvvm.AbstractView
 
 class HomeUI : AbstractView<HomeState>() {
     override fun createState(): HomeState = HomeState()
